@@ -30,9 +30,9 @@ public:
     // Destruktor
     ~ResourceManager() = default;
 
-    // Metoda pobierz - zwraca wynik zawo³ania metody get obiektu Resource
+    // Metoda get - zwraca wynik zawo³ania metody get obiektu Resource
     // Sprawdza, czy zasób istnieje
-    double pobierz() { 
+    double get() { 
         return zasob ? zasob->get() : 0.0; 
     }
 };
